@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual Env
+venv/
+.env/
+
+# Data
+data/raw/*
+data/pdfs/*
+vectordb/*
+*.faiss
+*.index
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+.env
